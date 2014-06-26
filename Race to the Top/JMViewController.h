@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface JMViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
 
 @end
